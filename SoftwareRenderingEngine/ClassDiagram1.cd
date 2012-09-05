@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="JssEngine::IDevice" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAQAAAQADAAACABAAAAI=</HashCode>
+      <FileName>IDevice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JssEngine::SoftwareDevice" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAACAAACIBCgAACAAAAAAAAIAAAAgAAAAKIAAAAAI=</HashCode>
+      <FileName>SoftwareDevice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JssEngine::VertexBuffer" Collapsed="true">
+    <Position X="19.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBAQAAAAAAAQAACAAGAAAAAEgAAAAAAAAAgAQEIAEAA=</HashCode>
+      <FileName>Buffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JssEngine::SoftwareVideoManager" Collapsed="true">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAhAAAACAhgBACACABQIAAAAgEGAAAAQAAAAAAAA=</HashCode>
+      <FileName>SoftwareVideoManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JssEngine::VideoManager" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAKAAACAIwJhUFAAKGBBgaAABAgEEBBAQAIIMQhEAA=</HashCode>
+      <FileName>Video.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JssEngine::Material" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAACAIAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Material.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JssEngine::RGBmap" Collapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAQABAAAAAAA=</HashCode>
+      <FileName>Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JssEngine::RGBpixmap" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABAAAAAAAAAAEAAAAAAAAAABAAAAEACAAAAAAAAAA=</HashCode>
+      <FileName>Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JssEngine::Texture" Collapsed="true">
+    <Position X="15.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAACABAAAAAAAAAAAQAAAAAIGAEAACCA=</HashCode>
+      <FileName>Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JssEngine::CullingModule" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>CullingModule.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JssEngine::LightModule" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAEAAAA=</HashCode>
+      <FileName>LightModule.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JssEngine::RasterizeModule" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAEAABABAAAAAAABAAAAAAAAAAACAIAAAABIIAAAAAA=</HashCode>
+      <FileName>RasterizeModule.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JssEngine::TransformModule" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAASAAAAAAEAAAAAAAAAAAABEAI=</HashCode>
+      <FileName>TransformModule.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JssEngine::Matrix16&lt;T&gt;" Collapsed="true">
+    <Position X="11.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAwAMAAAAAPAAAAAAAHgAAAAgAAAAeAAAAAAA=</HashCode>
+      <FileName>Matrix.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JssEngine::Vector2&lt;T&gt;" Collapsed="true">
+    <Position X="3.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAQBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JssEngine::Vector3&lt;T&gt;" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JssEngine::Vector4&lt;T&gt;" Collapsed="true">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAEQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAIAA=</HashCode>
+      <FileName>Vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JssEngine::Mesh" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAMBACAAAAAAAACEAAAAAAAABQAAAAEAAAA=</HashCode>
+      <FileName>Mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAsePaser" Collapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEEAAAAIAjMAAgglgAQAEIAWQBATAICEAAAAAgAAAI=</HashCode>
+      <FileName>AsePaser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAnimationControl" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAEAAAAAAgAAgAEEAAAEAAAAIABAAAAAAIABAgABI=</HashCode>
+      <FileName>Animation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CQuaternion" Collapsed="true">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAhgAQAAAAA=</HashCode>
+      <FileName>AtomicClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CContainer3D" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAJAAAoIIAIACJQgAIAgAYAAIACFAALREAAEJAgAAE=</HashCode>
+      <FileName>Container3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGBmap" Collapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAQABAAAAAAA=</HashCode>
+      <FileName>Materialex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RGBpixmap" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABAAAAAAAAAAEAAAAAAAAAABAAAAEgCAAAAAAAAAA=</HashCode>
+      <FileName>Materialex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTextura" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAQAAAAACARQBAAAAAAAAAQAAAAABGAEAACCA=</HashCode>
+      <FileName>Materialex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMaterial" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQgAEQAAAABAAhIAAASAAAAAAAAAAAYAAAAEAAgAACA=</HashCode>
+      <FileName>Materialex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMesh" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIIAAACgAyAEAgAggoAABRAACKBDAEIQQBhAAAFAEA=</HashCode>
+      <FileName>Meshex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="JssEngine::DeviceHWND" Collapsed="true">
+    <Position X="19.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SoftwareDevice.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="JssEngine::WMessage" Collapsed="true">
+    <Position X="14" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIABAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SoftwareDevice.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="JssEngine::DebugData" Collapsed="true">
+    <Position X="17.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABwAEAAAAAQAAAAAIAAAEAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Video.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="JssEngine::ApplyModule" Collapsed="true">
+    <Position X="15.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAESAAQBAAAAAAAAABAA=</HashCode>
+      <FileName>ApplyModule.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="JssEngine::Triangle" Collapsed="true">
+    <Position X="14" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Triangle.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="JssEngine::Vertex" Collapsed="true">
+    <Position X="21" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAEgAAAA=</HashCode>
+      <FileName>Vertex.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Vector3" Collapsed="true">
+    <Position X="17.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>AtomicClass.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Vector4" Collapsed="true">
+    <Position X="19.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAhgAQAAAAA=</HashCode>
+      <FileName>AtomicClass.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Matrix16" Collapsed="true">
+    <Position X="21" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAwAMAAAAAPAAAAAAAHgAAAAgAAAAeAAAAAAA=</HashCode>
+      <FileName>AtomicClass.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TEXCOORDFLOAT" Collapsed="true">
+    <Position X="21" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIFoAAAAAAAA=</HashCode>
+      <FileName>AtomicClass.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TRIANGLE" Collapsed="true">
+    <Position X="15.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACgAAAAABAAIAAAAAAAAAAAAAGAAAAACAAAAAAA=</HashCode>
+      <FileName>AtomicClass.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ROT_TRACK" Collapsed="true">
+    <Position X="17.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEgAAAAAAAAAAAAAAAAiAAlgAUAAAAA=</HashCode>
+      <FileName>AtomicClass.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="POS_TRACK" Collapsed="true">
+    <Position X="15.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEgAEAAAAAAAAACAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>AtomicClass.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SCALE_TRACK" Collapsed="true">
+    <Position X="19.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAEgAABgAAACAAAAGAAAAIAEDAAAAAAA=</HashCode>
+      <FileName>AtomicClass.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ANIMATION" Collapsed="true">
+    <Position X="14" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAoAAAAACACACAAAAQQAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>AtomicClass.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MeshContainer" Collapsed="true">
+    <Position X="14" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAAAAAUEgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AtomicClass.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="JssEngine::TextureMap" Collapsed="true">
+    <Position X="19.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Video.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JssEngine::MaterialMap" Collapsed="true">
+    <Position X="17.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Video.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JssEngine::BYTE" Collapsed="true">
+    <Position X="14" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mathematics.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JssEngine::DWORD" Collapsed="true">
+    <Position X="15.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mathematics.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JssEngine::Matrix16f" Collapsed="true">
+    <Position X="11.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Matrix.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JssEngine::Matrix16i" Collapsed="true">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Matrix.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JssEngine::Vector2i" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vector.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JssEngine::Vector3i" Collapsed="true">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vector.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JssEngine::Vector4i" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vector.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JssEngine::Vector2f" Collapsed="true">
+    <Position X="3.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vector.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JssEngine::Vector3f" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vector.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="JssEngine::Vector4f" Collapsed="true">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vector.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ViewList" Collapsed="true">
+    <Position X="21" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AtomicClass.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="JssEngine::RENDERSTATE" Collapsed="true">
+    <Position X="15.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAACAAAEAAAAQAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Type.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="JssEngine::FILLMODE" Collapsed="true">
+    <Position X="17.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Type.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="JssEngine::CULLMODE" Collapsed="true">
+    <Position X="15.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAIAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Type.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="JssEngine::TYPE" Collapsed="true">
+    <Position X="19.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAQAAAAAAAADIAAAAAACAA=</HashCode>
+      <FileName>Type.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="JssEngine::TRANSFORM_TYPE" Collapsed="true">
+    <Position X="17.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAEAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Type.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="JssEngine::PRIMITE_TYPE" Collapsed="true">
+    <Position X="14" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAII=</HashCode>
+      <FileName>Type.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="JssEngine::INTENALFORMAT" Collapsed="true">
+    <Position X="19.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Texture.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="JssEngine::COLOR_ELEMENT" Collapsed="true">
+    <Position X="14" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAEAAQA=</HashCode>
+      <FileName>Mathematics.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="JSS_DEVICE_TYPE" Collapsed="true">
+    <Position X="21" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SoftwareRendering.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
