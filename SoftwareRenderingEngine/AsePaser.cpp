@@ -30,9 +30,8 @@ bool CAsePaser::ReadASE(char *fname,CContainer3D *pObject,CAnimationControl* pAn
 	///////////////////////////파일을 열어서 없으면 실패 받는 객체가 널이면 실패
 	fp = fopen(fname, "rt");
 	if ( fp == NULL )
-	{
 		return false;
-	}
+
 	if(pObject == NULL)
 		return false;
 	else

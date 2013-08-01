@@ -139,7 +139,7 @@ void main()
 	CAsePaser parser;
 	CContainer3D container;
 	CAnimationControl ani;
-	parser.ReadASE("woman_01_all.ASE",&container,&ani,device);
+	parser.ReadASE("..\\bin\\woman_01_all.ASE",&container,&ani,device);
 	//parser.ReadASE("box.ASE",&container,&ani,device);
 
 
