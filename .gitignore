@@ -1,0 +1,12 @@
+
+/ipch
+/SoftwareRenderingEngine/debug
+/SoftwareRenderingEngine/release
+/_UpgradeReport_Files
+
+*.ilk
+*.pdb
+*.obj
+*.classes
+*.opensdf
+*.sdf
