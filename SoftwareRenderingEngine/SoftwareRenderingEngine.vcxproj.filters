@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{5d411c01-6ee3-4a71-abac-36d0720a2d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Device">
+      <UniqueIdentifier>{df41c927-4690-457f-8f4a-7ae9ec69d4a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\3D">
+      <UniqueIdentifier>{bb9e1da0-b4d2-4fda-a2d9-163b67594b39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Strategy">
+      <UniqueIdentifier>{a0b92f7c-0430-4386-904a-83ab327772c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Material">
+      <UniqueIdentifier>{d55ace1d-d96c-49b3-becd-f92e65de9774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Module">
+      <UniqueIdentifier>{afddf9ab-db2b-435b-b0ff-0863395085fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{3bb89f41-b597-49f7-bfed-61a94c0f6dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseModel">
+      <UniqueIdentifier>{95246905-b5cf-4b5d-8a57-7a335cf1a2d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Externer">
+      <UniqueIdentifier>{39b5c2c7-a4a5-4691-b025-3920a1383a55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Externer\ASEParser">
+      <UniqueIdentifier>{871714e3-6373-444c-8358-baf9dda91e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Externer\Animation">
+      <UniqueIdentifier>{9bce2256-fb70-4ca3-b778-3dc45d6cbbd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Externer\Data">
+      <UniqueIdentifier>{0b2dd519-7c82-42e3-aa59-ac5b2c1b4e55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Glober.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Type.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="IDevice.h">
+      <Filter>Renderer\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftwareDevice.h">
+      <Filter>Renderer\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Renderer\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftwareVideoManager.h">
+      <Filter>Renderer\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Video.h">
+      <Filter>Renderer\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Renderer\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Renderer\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplyModule.h">
+      <Filter>Renderer\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CullingModule.h">
+      <Filter>Renderer\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="LightModule.h">
+      <Filter>Renderer\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="RasterizeModule.h">
+      <Filter>Renderer\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformModule.h">
+      <Filter>Renderer\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>BaseModel</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>BaseModel</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>BaseModel</Filter>
+    </ClInclude>
+    <ClInclude Include="AsePaser.h">
+      <Filter>Externer\ASEParser</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Externer\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AtomicClass.h">
+      <Filter>Externer\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Container3D.h">
+      <Filter>Externer\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Materialex.h">
+      <Filter>Externer\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshex.h">
+      <Filter>Externer\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftwareRendering.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IDevice.cpp">
+      <Filter>Renderer\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="SoftwareDevice.cpp">
+      <Filter>Renderer\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>Renderer\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="SoftwareVideoManager.cpp">
+      <Filter>Renderer\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Video.cpp">
+      <Filter>Renderer\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Renderer\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Renderer\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="CullingModule.cpp">
+      <Filter>Renderer\Module</Filter>
+    </ClCompile>
+    <ClCompile Include="LightModule.cpp">
+      <Filter>Renderer\Module</Filter>
+    </ClCompile>
+    <ClCompile Include="RasterizeModule.cpp">
+      <Filter>Renderer\Module</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformModule.cpp">
+      <Filter>Renderer\Module</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>BaseModel</Filter>
+    </ClCompile>
+    <ClCompile Include="AsePaser.cpp">
+      <Filter>Externer\ASEParser</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Externer\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AtomicClass.cpp">
+      <Filter>Externer\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Container3D.cpp">
+      <Filter>Externer\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Materialex.cpp">
+      <Filter>Externer\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Meshex.cpp">
+      <Filter>Externer\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SoftwareRendering.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>
