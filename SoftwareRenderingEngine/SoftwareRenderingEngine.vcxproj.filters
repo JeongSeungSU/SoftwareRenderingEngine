@@ -37,6 +37,9 @@
     <Filter Include="Externer\Data">
       <UniqueIdentifier>{0b2dd519-7c82-42e3-aa59-ac5b2c1b4e55}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{efaa981a-3c52-4a81-9d42-1fdc562afab1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Glober.h">
@@ -118,6 +121,9 @@
       <Filter>Externer\Data</Filter>
     </ClInclude>
     <ClInclude Include="SoftwareRendering.h" />
+    <ClInclude Include="InputManager.h">
+      <Filter>Input</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="IDevice.cpp">
@@ -185,6 +191,9 @@
     </ClCompile>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="SoftwareRendering.cpp" />
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />

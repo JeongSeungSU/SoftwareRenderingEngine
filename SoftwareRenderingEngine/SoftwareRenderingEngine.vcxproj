@@ -86,6 +86,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Glober.h" />
+    <ClInclude Include="InputManager.h" />
     <ClInclude Include="Type.h" />
     <ClInclude Include="IDevice.h" />
     <ClInclude Include="SoftwareDevice.h" />
@@ -115,6 +116,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="IDevice.cpp" />
+    <ClCompile Include="InputManager.cpp" />
     <ClCompile Include="SoftwareDevice.cpp" />
     <ClCompile Include="Buffer.cpp" />
     <ClCompile Include="SoftwareVideoManager.cpp" />
